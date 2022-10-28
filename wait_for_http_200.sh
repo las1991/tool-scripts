@@ -15,6 +15,7 @@ do
         echo "success"
         break
     fi
+
+    echo "return  $http_code ,wait..."
     sleep 1s
-    echo "$? ..."
 done
